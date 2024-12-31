@@ -1,5 +1,15 @@
+import { Routes, Route } from "react-router-dom";
+import Layout from "./Pages/Layout/Layout";
+import LandingPage from "./Pages/LandingPage";
+
 function App() {
-  return <div className="text-red-600 bg-green-500">Hello world</div>;
+  return (
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<LandingPage />} />
+      </Route>
+    </Routes>
+  );
 }
 
 export default App;
