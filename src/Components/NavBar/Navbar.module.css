@@ -3,3 +3,6 @@
 .social_links a {
   padding: 8px;
 }
+.nav_links li a{
+  color: red;
+}
