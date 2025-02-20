@@ -48,7 +48,7 @@ const DropDownItem = () => {
 
 
 const App: React.FC = () => (
-  <Dropdown dropdownRender={()=>(<DropDownItem/>)} className='cursor-pointer'  trigger={['click']}>
+  <Dropdown dropdownRender={()=>(<DropDownItem/>)} className='cursor-pointer'  trigger={['hover']}>
     <a onClick={(e) => e.preventDefault()}>
       <Space className='text-lg tracking-widest'>
         Services
