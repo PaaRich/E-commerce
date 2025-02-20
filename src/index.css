@@ -17,7 +17,6 @@
 html {
   scroll-behavior: smooth;
 }
-
 @media (max-width:567px) {
   .row{
     width: 100%;

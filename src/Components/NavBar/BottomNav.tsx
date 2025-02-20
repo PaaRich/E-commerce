@@ -3,7 +3,8 @@ import Logo from "../../assets/shopping-cart-basket-png.webp";
 import { MdOutlinePermIdentity } from "react-icons/md";
 // import { BsCart4 } from "react-icons/bs";
 import { Link } from "react-router-dom";
-import { IoIosArrowDown } from "react-icons/io";
+// import { IoIosArrowDown } from "react-icons/io";
+import NavDropdown from "./NavDropdown";
 
 const BottomNav = () => {
   return (
@@ -36,13 +37,8 @@ const BottomNav = () => {
           <div className="w-3/5">
             <ul className="flex items-center justify-between text-[whitesmoke]">
               <li className="text-lg tracking-widest"><Link to={"/"}>Home</Link></li>
-            <li className="text-lg tracking-widest flex items-center group cursor-pointer relative">Services<IoIosArrowDown className="group-hover:rotate-180 duration-200" size={23} />
-              <ul className="absolute hidden group-hover:block top-full w-[200px] shadow-lg z-50 px-4 bg-white text-black">
-               <li><Link to={"e-commerce"}>E-commerce</Link></li>
-               <li><Link to={"training"}>Training</Link></li>
-               <li><Link to={"media"}>Media</Link></li>
-              </ul>
-            </li>
+            {/* */}
+            <NavDropdown/>
               <li className="text-lg tracking-widest"><Link to={"about"}>About</Link></li>
               <li className="text-lg tracking-widest"><Link to={"contact"}>Contact Us</Link></li>
             </ul>
