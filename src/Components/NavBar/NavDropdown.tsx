@@ -37,7 +37,7 @@ import { IoIosArrowDown } from 'react-icons/io';
 const DropDownItem = () => {
     return (
         <ul className='bg-[whitesmoke] p-4 rounded-b-md border-2 shadow-lg'>
-            <li className='text-lg border-b-2 py-2'><Link to={"e-commerce"}>E-commerce</Link></li>
+            <li className='text-lg border-b-2 py-2'><Link to="http://localhost:3000/">E-commerce</Link></li>
             <li className='text-lg border-b-2 py-2'><Link to={"training"}>Training</Link></li>
             <li className='text-lg py-2'><Link to={"media"}>Media</Link></li>
         </ul>

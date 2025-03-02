@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Layout from "./Pages/Layout/Layout";
 import LandingPage from "./Pages/LandingPage";
-import UserLayout from "./Services/E-commerce/Pages/Layout/UserLayout";
+// import UserLayout from "./Services/E-commerce/Pages/Layout/UserLayout";
 
 function App() {
   return (
@@ -11,9 +11,9 @@ function App() {
       </Route>
 
       {/* E-commerce */}
-      <Route path="/e-commerce" element={<UserLayout />} >
+      {/* <Route path="/e-commerce" element={<UserLayout />} >
         <Route index element={<h1>LandingPage</h1>}/>
-      </Route>
+      </Route> */}
 
       {/* Admin */}
       <Route path="/admin" element={<h1>AdminLayout</h1>}>
