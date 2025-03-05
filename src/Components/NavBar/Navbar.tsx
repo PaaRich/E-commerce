@@ -3,8 +3,8 @@ import BottomNav from "./BottomNav";
 
 const Navbar = () => {
   return (
-    <div className="bg-[#000000e2] w-full h-24">
-      <div className="md:max-w-[90%] md:mx-auto">
+    <div className="lg:bg-[#000000e2] w-full lg:h-24  sticky shadow-lg top-0 z-50">
+      <div className="lg:max-w-[90%] max-w-auto mx-auto">
         <TopNav />
         <BottomNav />
       </div>

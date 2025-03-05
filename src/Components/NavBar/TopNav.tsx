@@ -7,7 +7,7 @@ const TopNav = () => {
   return (
     <div>
       <div
-        className={`${NavbarStyle.top_nav} text-white lg:flex lg:items-center lg:justify-between`}
+        className={`${NavbarStyle.top_nav} hidden  text-white lg:flex items-center justify-between`}
       >
         <div
           className={`%

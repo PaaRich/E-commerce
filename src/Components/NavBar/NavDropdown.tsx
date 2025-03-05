@@ -50,7 +50,7 @@ const DropDownItem = () => {
 const App: React.FC = () => (
   <Dropdown dropdownRender={()=>(<DropDownItem/>)} className='cursor-pointer'  trigger={['hover']}>
     <a onClick={(e) => e.preventDefault()}>
-      <Space className='text-lg tracking-widest'>
+      <Space className='text-lg tracking-widest max-lg:pb-3'>
         Services
         <IoIosArrowDown />
       </Space>
